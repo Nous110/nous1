@@ -36,6 +36,11 @@ public class NousController {
     }
 
     @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    @Override
     public String toString2() {
         return super.toString();
     }
