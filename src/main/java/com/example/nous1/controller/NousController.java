@@ -12,4 +12,14 @@ public class NousController {
 
         return "login ";
     }
+    @RequestMapping("/login1")
+    public String login1(){
+
+        return "login ";
+    }
+
+    public static String getLogin(String id ,String password){
+
+        return  "ok";
+    }
 }
