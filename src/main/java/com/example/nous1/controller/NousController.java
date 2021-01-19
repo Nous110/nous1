@@ -10,7 +10,7 @@ public class NousController {
     @RequestMapping("/login")
     public String login(){
 
-        return "login 11";
+        return "login ";
     }
     @RequestMapping("/login1")
     public String login1(){
@@ -22,4 +22,20 @@ public class NousController {
         System.out.println("id23123123 123123= " + id);
         return  "ok456";
     }
+    /**
+     * @Description:
+     * @see bug/request id：
+     * @see action :
+     * @see param : add2.0
+     * @author: 213123
+     * @date: 0:15 2021/1/20
+     * @return :
+     */
+    public static void main(String[] args) {
+
+        System.out.println("args = " + args);
+
+
+    }
+
 }
