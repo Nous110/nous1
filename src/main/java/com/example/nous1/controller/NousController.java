@@ -10,6 +10,6 @@ public class NousController {
     @RequestMapping("/login")
     public String login(){
 
-        return "login 11";
+        return "login ";
     }
 }
