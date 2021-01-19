@@ -32,10 +32,6 @@ public class NousController {
      * @return :
      */
     public static void main(String[] args) {
-
-        System.out.println("args = " + args);
-
-
+        System.out.println("args 11= " + args);
     }
-
 }
