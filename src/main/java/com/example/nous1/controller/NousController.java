@@ -34,4 +34,9 @@ public class NousController {
     public static void main(String[] args) {
         System.out.println("args 11= " + args);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
